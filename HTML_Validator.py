@@ -70,5 +70,5 @@ def _extract_tags(html):
                 n = i
             if html[i] == ">":
                 m = i
-                lis.append(html[n:m+1])
+                lis.append(html[n:m + 1])
         return [j for j in lis if j.count("<") == 1]
